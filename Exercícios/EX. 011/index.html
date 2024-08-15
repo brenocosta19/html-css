@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>
+        Aumente ou diminua o tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+    <br>
+    <hr>
+    <h1>Reproduzindo Áudio</h1>
+    <p>INFO: ARQUIVOS WAV SÃO MUITO PESADOS, CUIDADO!</p>
+    <h2>Tags</h2>
+    <ul>
+        <li>Tag: &lt;audio&gt;.</li>
+    </ul>
+    <h2>Parâmetros</h2>
+    <ul>
+        <li>controls: exibe controles como 'play', 'pause', 'skip' e 'volume'</li>
+        <br>
+        <li>preload: Use esse parâmetro antes de colocar os seguintes:</li>
+            <ul>
+                <li>autoplay: site baixa o áudio automaticamente</li>
+                <li>metadata: site baixa apenas algumas informações</li>
+                <li>none: site começa a baixar quando você clicar no 'play' </li>
+                <li>loop: após a finalização do áudio, o site coloca para tocar novamente automaticamente</li>
+            </ul>
+    </ul>
+    <br>
+    <audio preload="none" autoplay controls >
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

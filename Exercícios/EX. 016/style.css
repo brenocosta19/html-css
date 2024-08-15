@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial;
+
+}
+
+body {
+    background-image: linear-gradient(90deg, #f2d785, #BF7C63, #52D9B3 );
+}
+
+main {
+    background-color: #f0f8ff;
+    width: 600px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px #7a2929;
+}
+
+h1 {
+    font-family:'Courier New';
+    text-align: center;
+    color: #363636;
+    text-shadow: 1px 1px 2px #2e2d2d;
+    text-decoration-line: underline overline;
+}
+
+h2 {
+    color: #a9b94e;
+    font-family: 'Courier New';
+    text-decoration-line: underline;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
